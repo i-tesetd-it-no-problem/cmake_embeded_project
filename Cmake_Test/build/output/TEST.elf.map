@@ -1,0 +1,1430 @@
+Component: Arm Compiler for Embedded 6.21 Tool: armlink [5ec1fa00]
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing gd32f10x_eval.o(.text), (0 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_led_init), (8 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_led_on), (8 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_led_off), (8 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_led_toggle), (8 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_key_init), (8 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_key_state_get), (8 bytes).
+    Removing gd32f10x_eval.o(.ARM.exidx.text.gd_eval_com_init), (8 bytes).
+    Removing gd32f10x_it.o(.text), (0 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.NMI_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.HardFault_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.MemManage_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.BusFault_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.UsageFault_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.SVC_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.DebugMon_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.PendSV_Handler), (8 bytes).
+    Removing gd32f10x_it.o(.ARM.exidx.text.SysTick_Handler), (8 bytes).
+    Removing main.o(.text), (0 bytes).
+    Removing main.o(.text.led_spark), (52 bytes).
+    Removing main.o(.ARM.exidx.text.led_spark), (8 bytes).
+    Removing main.o(.ARM.exidx.text.main), (8 bytes).
+    Removing main.o(.ARM.exidx.text.fputc), (8 bytes).
+    Removing main.o(.bss.led_spark.timingdelaylocal), (4 bytes).
+    Removing main.o(.ARM.use_no_argv), (4 bytes).
+    Removing systick.o(.text), (0 bytes).
+    Removing systick.o(.ARM.exidx.text.systick_config), (8 bytes).
+    Removing systick.o(.ARM.exidx.text.delay_1ms), (8 bytes).
+    Removing systick.o(.ARM.exidx.text.delay_decrement), (8 bytes).
+    Removing syscalls.o(.text), (0 bytes).
+    Removing system_gd32f10x.o(.text), (0 bytes).
+    Removing system_gd32f10x.o(.ARM.exidx.text.SystemInit), (8 bytes).
+    Removing gd32f10x_adc.o(.text), (0 bytes).
+    Removing gd32f10x_adc.o(.text.adc_deinit), (72 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_deinit), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_mode_config), (24 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_mode_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_special_function_config), (90 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_special_function_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_data_alignment_config), (18 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_data_alignment_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_enable), (18 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_disable), (10 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_disable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_calibration_enable), (32 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_calibration_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_tempsensor_vrefint_enable), (18 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_tempsensor_vrefint_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_tempsensor_vrefint_disable), (18 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_tempsensor_vrefint_disable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_dma_mode_enable), (10 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_dma_mode_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_dma_mode_disable), (10 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_dma_mode_disable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_discontinuous_mode_config), (60 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_discontinuous_mode_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_channel_length_config), (58 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_channel_length_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_regular_channel_config), (116 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_regular_channel_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_inserted_channel_config), (100 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_inserted_channel_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_inserted_channel_offset_config), (26 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_inserted_channel_offset_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_external_trigger_source_config), (34 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_external_trigger_source_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_external_trigger_config), (62 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_external_trigger_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_software_trigger_enable), (28 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_software_trigger_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_regular_data_read), (6 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_regular_data_read), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_inserted_data_read), (16 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_inserted_data_read), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_sync_mode_convert_value_read), (12 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_sync_mode_convert_value_read), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_watchdog_single_channel_enable), (34 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_watchdog_single_channel_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_watchdog_group_channel_enable), (52 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_watchdog_group_channel_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_watchdog_disable), (16 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_watchdog_disable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_watchdog_threshold_config), (14 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_watchdog_threshold_config), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_flag_get), (10 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_flag_get), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_flag_clear), (10 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_flag_clear), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_regular_software_startconv_flag_get), (8 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_regular_software_startconv_flag_get), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_inserted_software_startconv_flag_get), (8 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_inserted_software_startconv_flag_get), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_interrupt_flag_get), (48 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_interrupt_flag_clear), (10 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_interrupt_enable), (40 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_interrupt_enable), (8 bytes).
+    Removing gd32f10x_adc.o(.text.adc_interrupt_disable), (40 bytes).
+    Removing gd32f10x_adc.o(.ARM.exidx.text.adc_interrupt_disable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text), (0 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_deinit), (14 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_deinit), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_data_write), (36 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_data_write), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_data_read), (40 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_data_read), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_rtc_calibration_output_enable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_rtc_calibration_output_enable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_rtc_calibration_output_disable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_rtc_calibration_output_disable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_rtc_signal_output_enable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_rtc_signal_output_enable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_rtc_signal_output_disable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_rtc_signal_output_disable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_rtc_output_select), (20 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_rtc_output_select), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_rtc_calibration_value_set), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_rtc_calibration_value_set), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_tamper_detection_enable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_tamper_detection_enable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_tamper_detection_disable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_tamper_detection_disable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_tamper_active_level_set), (20 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_tamper_active_level_set), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_interrupt_enable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_interrupt_enable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_interrupt_disable), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_interrupt_disable), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_flag_get), (16 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_flag_get), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_flag_clear), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_flag_clear), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_interrupt_flag_get), (16 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_bkp.o(.text.bkp_interrupt_flag_clear), (18 bytes).
+    Removing gd32f10x_bkp.o(.ARM.exidx.text.bkp_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_can.o(.text), (0 bytes).
+    Removing gd32f10x_can.o(.text.can_deinit), (36 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_deinit), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_struct_para_init), (96 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_struct_para_init), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_init), (226 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_init), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_filter_init), (178 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_filter_init), (8 bytes).
+    Removing gd32f10x_can.o(.text.can1_filter_start_bank), (46 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can1_filter_start_bank), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_debug_freeze_enable), (30 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_debug_freeze_enable), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_debug_freeze_disable), (30 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_debug_freeze_disable), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_time_trigger_mode_enable), (32 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_time_trigger_mode_enable), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_time_trigger_mode_disable), (32 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_time_trigger_mode_disable), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_message_transmit), (164 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_message_transmit), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_transmit_states), (92 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_transmit_states), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_transmission_stop), (64 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_transmission_stop), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_message_receive), (166 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_message_receive), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_fifo_release), (26 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_fifo_release), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_receive_message_length_get), (24 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_receive_message_length_get), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_working_mode_set), (148 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_working_mode_set), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_wakeup), (40 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_wakeup), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_error_get), (8 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_error_get), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_receive_error_number_get), (6 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_receive_error_number_get), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_transmit_error_number_get), (8 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_transmit_error_number_get), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_interrupt_enable), (8 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_interrupt_enable), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_interrupt_disable), (10 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_interrupt_disable), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_flag_get), (16 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_flag_get), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_flag_clear), (50 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_flag_clear), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_interrupt_flag_get), (90 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_can.o(.text.can_interrupt_flag_clear), (56 bytes).
+    Removing gd32f10x_can.o(.ARM.exidx.text.can_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_crc.o(.text), (0 bytes).
+    Removing gd32f10x_crc.o(.text.crc_deinit), (24 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_deinit), (8 bytes).
+    Removing gd32f10x_crc.o(.text.crc_data_register_reset), (18 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_data_register_reset), (8 bytes).
+    Removing gd32f10x_crc.o(.text.crc_data_register_read), (12 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_data_register_read), (8 bytes).
+    Removing gd32f10x_crc.o(.text.crc_free_data_register_read), (14 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_free_data_register_read), (8 bytes).
+    Removing gd32f10x_crc.o(.text.crc_free_data_register_write), (12 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_free_data_register_write), (8 bytes).
+    Removing gd32f10x_crc.o(.text.crc_single_data_calculate), (14 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_single_data_calculate), (8 bytes).
+    Removing gd32f10x_crc.o(.text.crc_block_data_calculate), (26 bytes).
+    Removing gd32f10x_crc.o(.ARM.exidx.text.crc_block_data_calculate), (8 bytes).
+    Removing gd32f10x_dac.o(.text), (0 bytes).
+    Removing gd32f10x_dac.o(.text.dac_deinit), (36 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_deinit), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_enable), (24 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_disable), (26 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_disable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_dma_enable), (26 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_dma_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_dma_disable), (26 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_dma_disable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_output_buffer_enable), (26 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_output_buffer_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_output_buffer_disable), (24 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_output_buffer_disable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_output_value_get), (24 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_output_value_get), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_data_set), (30 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_data_set), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_trigger_enable), (24 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_trigger_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_trigger_disable), (26 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_trigger_disable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_trigger_source_config), (36 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_trigger_source_config), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_software_trigger_enable), (22 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_software_trigger_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_wave_mode_config), (36 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_wave_mode_config), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_lfsr_noise_config), (36 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_lfsr_noise_config), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_triangle_noise_config), (36 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_triangle_noise_config), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_concurrent_enable), (10 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_concurrent_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_concurrent_disable), (10 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_concurrent_disable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_concurrent_software_trigger_enable), (10 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_concurrent_software_trigger_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_concurrent_output_buffer_enable), (10 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_concurrent_output_buffer_enable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_concurrent_output_buffer_disable), (10 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_concurrent_output_buffer_disable), (8 bytes).
+    Removing gd32f10x_dac.o(.text.dac_concurrent_data_set), (40 bytes).
+    Removing gd32f10x_dac.o(.ARM.exidx.text.dac_concurrent_data_set), (8 bytes).
+    Removing gd32f10x_dbg.o(.text), (0 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_id_get), (12 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_id_get), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_low_power_enable), (16 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_low_power_enable), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_low_power_disable), (18 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_low_power_disable), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_periph_enable), (16 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_periph_enable), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_periph_disable), (18 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_periph_disable), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_trace_pin_enable), (18 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_trace_pin_enable), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_trace_pin_disable), (18 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_trace_pin_disable), (8 bytes).
+    Removing gd32f10x_dbg.o(.text.dbg_trace_pin_mode_set), (24 bytes).
+    Removing gd32f10x_dbg.o(.ARM.exidx.text.dbg_trace_pin_mode_set), (8 bytes).
+    Removing gd32f10x_dma.o(.text), (0 bytes).
+    Removing gd32f10x_dma.o(.text.dma_deinit), (60 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_deinit), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_struct_para_init), (20 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_struct_para_init), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_init), (116 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_init), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_circulation_enable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_circulation_enable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_circulation_disable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_circulation_disable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_memory_to_memory_enable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_memory_to_memory_enable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_memory_to_memory_disable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_memory_to_memory_disable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_channel_enable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_channel_enable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_channel_disable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_channel_disable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_periph_address_config), (30 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_periph_address_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_memory_address_config), (30 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_memory_address_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_transfer_number_config), (32 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_transfer_number_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_transfer_number_get), (30 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_transfer_number_get), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_priority_config), (38 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_priority_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_memory_width_config), (38 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_memory_width_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_periph_width_config), (38 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_periph_width_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_memory_increase_enable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_memory_increase_enable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_memory_increase_disable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_memory_increase_disable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_periph_increase_enable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_periph_increase_enable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_periph_increase_disable), (36 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_periph_increase_disable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_transfer_direction_config), (42 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_transfer_direction_config), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_flag_get), (16 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_flag_get), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_flag_clear), (14 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_flag_clear), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_interrupt_flag_get), (58 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_interrupt_flag_clear), (14 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_interrupt_enable), (34 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_interrupt_enable), (8 bytes).
+    Removing gd32f10x_dma.o(.text.dma_interrupt_disable), (34 bytes).
+    Removing gd32f10x_dma.o(.ARM.exidx.text.dma_interrupt_disable), (8 bytes).
+    Removing gd32f10x_enet.o(.text), (0 bytes).
+    Removing gd32f10x_exmc.o(.text), (0 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_norsram_deinit), (46 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_norsram_deinit), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_norsram_init), (340 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_norsram_init), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_norsram_struct_para_init), (74 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_norsram_struct_para_init), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_norsram_enable), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_norsram_enable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_norsram_disable), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_norsram_disable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_nand_deinit), (30 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_nand_deinit), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_nand_init), (136 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_nand_init), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_nand_struct_para_init), (42 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_nand_struct_para_init), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_nand_enable), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_nand_enable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_nand_disable), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_nand_disable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_nand_ecc_config), (24 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_nand_ecc_config), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_ecc_get), (12 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_ecc_get), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_pccard_deinit), (26 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_pccard_deinit), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_pccard_init), (148 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_pccard_init), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_pccard_struct_para_init), (42 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_pccard_struct_para_init), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_pccard_enable), (16 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_pccard_enable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_pccard_disable), (16 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_pccard_disable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_interrupt_enable), (16 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_interrupt_enable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_interrupt_disable), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_interrupt_disable), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_flag_get), (22 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_flag_get), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_flag_clear), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_flag_clear), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_interrupt_flag_get), (30 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_exmc.o(.text.exmc_interrupt_flag_clear), (18 bytes).
+    Removing gd32f10x_exmc.o(.ARM.exidx.text.exmc_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_exti.o(.text), (0 bytes).
+    Removing gd32f10x_exti.o(.text.exti_deinit), (22 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_deinit), (8 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_init), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_interrupt_enable), (16 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_interrupt_enable), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_interrupt_disable), (18 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_interrupt_disable), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_event_enable), (16 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_event_enable), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_event_disable), (18 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_event_disable), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_software_interrupt_enable), (16 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_software_interrupt_enable), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_software_interrupt_disable), (18 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_software_interrupt_disable), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_flag_get), (18 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_flag_get), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_flag_clear), (12 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_flag_clear), (8 bytes).
+    Removing gd32f10x_exti.o(.text.exti_interrupt_flag_get), (18 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_exti.o(.ARM.exidx.text.exti_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_fmc.o(.text), (0 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_wscnt_set), (20 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_wscnt_set), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_unlock), (80 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_unlock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank0_unlock), (38 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank0_unlock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank1_unlock), (38 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank1_unlock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_lock), (44 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_lock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank0_lock), (18 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank0_lock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank1_lock), (18 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank1_lock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_page_erase), (484 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_page_erase), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank0_ready_wait), (68 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank0_ready_wait), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank1_ready_wait), (68 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank1_ready_wait), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_mass_erase), (458 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_mass_erase), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank0_erase), (150 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank0_erase), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank1_erase), (150 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank1_erase), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_word_program), (448 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_word_program), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_halfword_program), (448 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_halfword_program), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_unlock), (44 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_unlock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_lock), (18 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_lock), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_erase), (270 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_erase), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_spc_get), (16 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_spc_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_write_protection_enable), (398 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_write_protection_enable), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_security_protection_config), (264 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_security_protection_config), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_user_write), (188 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_user_write), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_data_program), (152 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_data_program), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_user_get), (16 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_user_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_data_get), (16 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_data_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.ob_write_protection_get), (12 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.ob_write_protection_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_interrupt_enable), (30 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_interrupt_enable), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_interrupt_disable), (32 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_interrupt_disable), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_flag_get), (26 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_flag_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_flag_clear), (30 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_flag_clear), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_interrupt_flag_get), (60 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_interrupt_flag_clear), (30 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank0_state_get), (36 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank0_state_get), (8 bytes).
+    Removing gd32f10x_fmc.o(.text.fmc_bank1_state_get), (36 bytes).
+    Removing gd32f10x_fmc.o(.ARM.exidx.text.fmc_bank1_state_get), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text), (0 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_write_enable), (16 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_write_enable), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_write_disable), (14 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_write_disable), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_enable), (16 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_enable), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_prescaler_value_config), (54 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_prescaler_value_config), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_reload_value_config), (58 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_reload_value_config), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_counter_reload), (16 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_counter_reload), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_config), (100 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_config), (8 bytes).
+    Removing gd32f10x_fwdgt.o(.text.fwdgt_flag_get), (18 bytes).
+    Removing gd32f10x_fwdgt.o(.ARM.exidx.text.fwdgt_flag_get), (8 bytes).
+    Removing gd32f10x_gpio.o(.text), (0 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_deinit), (42 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_deinit), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_afio_deinit), (22 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_afio_deinit), (8 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_init), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_bit_set), (4 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_bit_set), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_bit_reset), (4 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_bit_reset), (8 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_bit_write), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_port_write), (4 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_port_write), (8 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_input_bit_get), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_input_port_get), (6 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_input_port_get), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_output_bit_get), (10 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_output_bit_get), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_output_port_get), (6 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_output_port_get), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_pin_remap_config), (128 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_pin_remap_config), (8 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_exti_source_select), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_event_output_config), (22 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_event_output_config), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_event_output_enable), (16 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_event_output_enable), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_event_output_disable), (16 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_event_output_disable), (8 bytes).
+    Removing gd32f10x_gpio.o(.text.gpio_pin_lock), (16 bytes).
+    Removing gd32f10x_gpio.o(.ARM.exidx.text.gpio_pin_lock), (8 bytes).
+    Removing gd32f10x_i2c.o(.text), (0 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_deinit), (54 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_deinit), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_clock_config), (214 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_clock_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_mode_addr_config), (26 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_mode_addr_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_smbus_type_config), (16 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_smbus_type_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_ack_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_ack_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_ackpos_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_ackpos_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_master_addressing), (14 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_master_addressing), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_dualaddr_enable), (10 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_dualaddr_enable), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_dualaddr_disable), (10 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_dualaddr_disable), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_enable), (10 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_enable), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_disable), (10 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_disable), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_start_on_bus), (10 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_start_on_bus), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_stop_on_bus), (10 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_stop_on_bus), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_data_transmit), (4 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_data_transmit), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_data_receive), (6 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_data_receive), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_dma_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_dma_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_dma_last_transfer_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_dma_last_transfer_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_stretch_scl_low_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_stretch_scl_low_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_slave_response_to_gcall_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_slave_response_to_gcall_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_software_reset_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_software_reset_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_pec_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_pec_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_pec_transfer_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_pec_transfer_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_pec_value_get), (8 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_pec_value_get), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_smbus_alert_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_smbus_alert_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_smbus_arp_config), (12 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_smbus_arp_config), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_flag_get), (18 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_flag_get), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_flag_clear), (40 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_flag_clear), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_interrupt_enable), (24 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_interrupt_enable), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_interrupt_disable), (26 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_interrupt_disable), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_interrupt_flag_get), (84 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_i2c.o(.text.i2c_interrupt_flag_clear), (42 bytes).
+    Removing gd32f10x_i2c.o(.ARM.exidx.text.i2c_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_misc.o(.text), (0 bytes).
+    Removing gd32f10x_misc.o(.text.nvic_priority_group_set), (20 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.nvic_priority_group_set), (8 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.nvic_irq_enable), (8 bytes).
+    Removing gd32f10x_misc.o(.text.nvic_irq_disable), (28 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.nvic_irq_disable), (8 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.nvic_vector_table_set), (8 bytes).
+    Removing gd32f10x_misc.o(.text.system_lowpower_set), (16 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.system_lowpower_set), (8 bytes).
+    Removing gd32f10x_misc.o(.text.system_lowpower_reset), (18 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.system_lowpower_reset), (8 bytes).
+    Removing gd32f10x_misc.o(.text.systick_clksource_set), (24 bytes).
+    Removing gd32f10x_misc.o(.ARM.exidx.text.systick_clksource_set), (8 bytes).
+    Removing gd32f10x_pmu.o(.text), (0 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_deinit), (22 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_deinit), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_lvd_select), (40 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_lvd_select), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_lvd_disable), (18 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_lvd_disable), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_to_sleepmode), (26 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_to_sleepmode), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_to_deepsleepmode), (202 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_to_deepsleepmode), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_to_standbymode), (84 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_to_standbymode), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_wakeup_pin_enable), (18 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_wakeup_pin_enable), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_wakeup_pin_disable), (18 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_wakeup_pin_disable), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_backup_write_enable), (18 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_backup_write_enable), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_backup_write_disable), (18 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_backup_write_disable), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_flag_get), (18 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_flag_get), (8 bytes).
+    Removing gd32f10x_pmu.o(.text.pmu_flag_clear), (30 bytes).
+    Removing gd32f10x_pmu.o(.ARM.exidx.text.pmu_flag_clear), (8 bytes).
+    Removing gd32f10x_pmu.o(.bss.pmu_to_deepsleepmode.reg_snap.0), (4 bytes).
+    Removing gd32f10x_pmu.o(.bss.pmu_to_deepsleepmode.reg_snap.1), (4 bytes).
+    Removing gd32f10x_pmu.o(.bss.pmu_to_deepsleepmode.reg_snap.2), (4 bytes).
+    Removing gd32f10x_pmu.o(.bss.pmu_to_deepsleepmode.reg_snap.3), (4 bytes).
+    Removing gd32f10x_rcu.o(.text), (0 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_deinit), (118 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_deinit), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_osci_stab_wait), (254 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_osci_stab_wait), (8 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_periph_clock_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_periph_clock_disable), (32 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_periph_clock_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_periph_clock_sleep_enable), (30 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_periph_clock_sleep_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_periph_clock_sleep_disable), (32 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_periph_clock_sleep_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_periph_reset_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_periph_reset_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_bkp_reset_enable), (18 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_bkp_reset_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_bkp_reset_disable), (18 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_bkp_reset_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_system_clock_source_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_system_clock_source_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_system_clock_source_get), (16 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_system_clock_source_get), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_ahb_clock_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_ahb_clock_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_apb1_clock_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_apb1_clock_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_apb2_clock_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_apb2_clock_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_ckout0_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_ckout0_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_pll_config), (32 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_pll_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_predv0_config), (26 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_predv0_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_adc_clock_config), (64 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_adc_clock_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_usb_clock_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_usb_clock_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_rtc_clock_config), (20 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_rtc_clock_config), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_flag_get), (26 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_flag_get), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_all_reset_flag_clear), (18 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_all_reset_flag_clear), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_interrupt_flag_get), (26 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_interrupt_flag_clear), (30 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_interrupt_enable), (30 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_interrupt_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_interrupt_disable), (32 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_interrupt_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_osci_on), (30 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_osci_on), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_osci_off), (32 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_osci_off), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_osci_bypass_mode_enable), (64 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_osci_bypass_mode_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_osci_bypass_mode_disable), (64 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_osci_bypass_mode_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_hxtal_clock_monitor_enable), (18 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_hxtal_clock_monitor_enable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_hxtal_clock_monitor_disable), (18 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_hxtal_clock_monitor_disable), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_irc8m_adjust_value_set), (26 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_irc8m_adjust_value_set), (8 bytes).
+    Removing gd32f10x_rcu.o(.text.rcu_deepsleep_voltage_set), (16 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_deepsleep_voltage_set), (8 bytes).
+    Removing gd32f10x_rcu.o(.ARM.exidx.text.rcu_clock_freq_get), (8 bytes).
+    Removing gd32f10x_rtc.o(.text), (0 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_configuration_mode_enter), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_configuration_mode_enter), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_configuration_mode_exit), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_configuration_mode_exit), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_counter_set), (34 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_counter_set), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_prescaler_set), (36 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_prescaler_set), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_lwoff_wait), (16 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_lwoff_wait), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_register_sync_wait), (24 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_register_sync_wait), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_alarm_config), (34 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_alarm_config), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_counter_get), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_counter_get), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_divider_get), (22 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_divider_get), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_flag_get), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_flag_get), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_flag_clear), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_flag_clear), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_interrupt_flag_get), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_interrupt_flag_clear), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_interrupt_enable), (16 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_interrupt_enable), (8 bytes).
+    Removing gd32f10x_rtc.o(.text.rtc_interrupt_disable), (18 bytes).
+    Removing gd32f10x_rtc.o(.ARM.exidx.text.rtc_interrupt_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text), (0 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_deinit), (30 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_deinit), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_clock_config), (36 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_clock_config), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_hardware_clock_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_hardware_clock_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_hardware_clock_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_hardware_clock_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_bus_mode_set), (24 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_bus_mode_set), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_power_state_set), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_power_state_set), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_power_state_get), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_power_state_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_clock_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_clock_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_clock_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_clock_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_command_response_config), (40 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_command_response_config), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_wait_type_set), (24 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_wait_type_set), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_csm_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_csm_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_csm_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_csm_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_command_index_get), (14 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_command_index_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_response_get), (64 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_response_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_data_config), (62 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_data_config), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_data_transfer_config), (22 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_data_transfer_config), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_dsm_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_dsm_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_dsm_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_dsm_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_data_write), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_data_write), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_data_read), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_data_read), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_data_counter_get), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_data_counter_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_fifo_counter_get), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_fifo_counter_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_dma_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_dma_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_dma_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_dma_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_flag_get), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_flag_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_flag_clear), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_flag_clear), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_interrupt_enable), (16 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_interrupt_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_interrupt_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_interrupt_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_interrupt_flag_get), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_interrupt_flag_clear), (12 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_readwait_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_readwait_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_readwait_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_readwait_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_stop_readwait_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_stop_readwait_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_stop_readwait_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_stop_readwait_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_readwait_type_set), (28 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_readwait_type_set), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_operation_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_operation_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_operation_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_operation_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_suspend_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_suspend_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_suspend_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_suspend_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_ceata_command_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_ceata_command_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_ceata_command_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_ceata_command_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_ceata_interrupt_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_ceata_interrupt_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_ceata_interrupt_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_ceata_interrupt_disable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_ceata_command_completion_enable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_ceata_command_completion_enable), (8 bytes).
+    Removing gd32f10x_sdio.o(.text.sdio_ceata_command_completion_disable), (18 bytes).
+    Removing gd32f10x_sdio.o(.ARM.exidx.text.sdio_ceata_command_completion_disable), (8 bytes).
+    Removing gd32f10x_spi.o(.text), (0 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_deinit), (72 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_deinit), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_struct_para_init), (18 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_struct_para_init), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_init), (52 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_init), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_enable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_enable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_disable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_disable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.i2s_init), (30 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.i2s_init), (8 bytes).
+    Removing gd32f10x_spi.o(.text.i2s_psc_config), (118 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.i2s_psc_config), (8 bytes).
+    Removing gd32f10x_spi.o(.text.i2s_enable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.i2s_enable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.i2s_disable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.i2s_disable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_nss_output_enable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_nss_output_enable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_nss_output_disable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_nss_output_disable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_nss_internal_high), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_nss_internal_high), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_nss_internal_low), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_nss_internal_low), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_dma_enable), (18 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_dma_enable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_dma_disable), (22 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_dma_disable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_data_frame_format_config), (16 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_data_frame_format_config), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_bidirectional_transfer_config), (20 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_bidirectional_transfer_config), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_data_transmit), (4 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_data_transmit), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_data_receive), (6 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_data_receive), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_polynomial_set), (12 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_polynomial_set), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_polynomial_get), (6 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_polynomial_get), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_on), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_on), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_off), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_off), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_next), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_next), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_get), (14 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_get), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_crc_error_clear), (8 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_crc_error_clear), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_flag_get), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_flag_get), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_interrupt_enable), (8 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_interrupt_enable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_interrupt_disable), (10 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_interrupt_disable), (8 bytes).
+    Removing gd32f10x_spi.o(.text.spi_i2s_interrupt_flag_get), (80 bytes).
+    Removing gd32f10x_spi.o(.ARM.exidx.text.spi_i2s_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_timer.o(.text), (0 bytes).
+    Removing gd32f10x_timer.o(.text.timer_deinit), (194 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_deinit), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_struct_para_init), (18 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_struct_para_init), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_init), (284 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_init), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_enable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_auto_reload_shadow_enable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_auto_reload_shadow_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_auto_reload_shadow_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_auto_reload_shadow_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_update_event_enable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_update_event_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_update_event_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_update_event_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_counter_alignment), (16 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_counter_alignment), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_counter_up_direction), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_counter_up_direction), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_counter_down_direction), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_counter_down_direction), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_prescaler_config), (18 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_prescaler_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_repetition_value_config), (4 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_repetition_value_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_autoreload_value_config), (4 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_autoreload_value_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_counter_value_config), (4 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_counter_value_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_counter_read), (4 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_counter_read), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_prescaler_read), (6 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_prescaler_read), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_single_pulse_mode_config), (28 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_single_pulse_mode_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_update_source_config), (28 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_update_source_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_dma_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_dma_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_dma_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_dma_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_dma_request_source_select), (28 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_dma_request_source_select), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_dma_transfer_config), (24 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_dma_transfer_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_event_software_generate), (8 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_event_software_generate), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_break_struct_para_init), (12 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_break_struct_para_init), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_break_config), (38 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_break_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_break_enable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_break_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_break_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_break_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_automatic_output_enable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_automatic_output_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_automatic_output_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_automatic_output_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_primary_output_config), (18 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_primary_output_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_control_shadow_config), (16 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_control_shadow_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_control_shadow_update_config), (30 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_control_shadow_update_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_struct_para_init), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_struct_para_init), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_config), (518 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_mode_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_mode_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_pulse_value_config), (12 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_pulse_value_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_shadow_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_shadow_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_fast_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_fast_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_clear_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_clear_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_polarity_config), (68 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_polarity_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_complementary_output_polarity_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_complementary_output_polarity_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_output_state_config), (68 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_output_state_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_complementary_output_state_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_complementary_output_state_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_input_struct_para_init), (12 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_input_struct_para_init), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_input_capture_config), (344 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_input_capture_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_input_capture_prescaler_config), (56 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_input_capture_prescaler_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_channel_capture_value_register_read), (14 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_channel_capture_value_register_read), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_input_pwm_capture_config), (354 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_input_pwm_capture_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_hall_mode_config), (28 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_hall_mode_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_input_trigger_source_select), (16 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_input_trigger_source_select), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_master_output_trigger_source_select), (16 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_master_output_trigger_source_select), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_slave_mode_select), (16 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_slave_mode_select), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_master_slave_mode_config), (28 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_master_slave_mode_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_external_trigger_config), (34 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_external_trigger_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_quadrature_decoder_mode_config), (78 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_quadrature_decoder_mode_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_internal_clock_config), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_internal_clock_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_internal_trigger_as_external_clock_config), (32 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_internal_trigger_as_external_clock_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_external_trigger_as_external_clock_config), (148 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_external_trigger_as_external_clock_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_external_clock_mode0_config), (50 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_external_clock_mode0_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_external_clock_mode1_config), (42 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_external_clock_mode1_config), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_external_clock_mode1_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_external_clock_mode1_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_interrupt_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_interrupt_enable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_interrupt_disable), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_interrupt_disable), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_interrupt_flag_get), (22 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_interrupt_flag_clear), (6 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_flag_get), (10 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_flag_get), (8 bytes).
+    Removing gd32f10x_timer.o(.text.timer_flag_clear), (6 bytes).
+    Removing gd32f10x_timer.o(.ARM.exidx.text.timer_flag_clear), (8 bytes).
+    Removing gd32f10x_usart.o(.text), (0 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_deinit), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_baudrate_set), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_parity_config), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_word_length_set), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_stop_bit_set), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_transmit_config), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_receive_config), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_data_transmit), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_data_receive), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_data_receive), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_address_config), (20 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_address_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_mute_mode_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_mute_mode_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_mute_mode_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_mute_mode_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_mute_mode_wakeup_config), (16 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_mute_mode_wakeup_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_lin_mode_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_lin_mode_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_lin_mode_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_lin_mode_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_lin_break_detection_length_config), (20 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_lin_break_detection_length_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_send_break), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_send_break), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_halfduplex_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_halfduplex_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_halfduplex_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_halfduplex_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_synchronous_clock_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_synchronous_clock_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_synchronous_clock_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_synchronous_clock_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_synchronous_clock_config), (36 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_synchronous_clock_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_guard_time_config), (18 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_guard_time_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_smartcard_mode_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_smartcard_mode_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_smartcard_mode_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_smartcard_mode_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_smartcard_mode_nack_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_smartcard_mode_nack_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_smartcard_mode_nack_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_smartcard_mode_nack_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_irda_mode_enable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_irda_mode_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_irda_mode_disable), (10 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_irda_mode_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_prescaler_config), (16 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_prescaler_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_irda_lowpower_config), (20 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_irda_lowpower_config), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_hardware_flow_rts_config), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_hardware_flow_cts_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_dma_receive_config), (20 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_dma_receive_config), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_dma_transmit_config), (20 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_dma_transmit_config), (8 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_flag_get), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_flag_clear), (20 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_flag_clear), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_interrupt_enable), (24 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_interrupt_enable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_interrupt_disable), (26 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_interrupt_disable), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_interrupt_flag_get), (34 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_interrupt_flag_get), (8 bytes).
+    Removing gd32f10x_usart.o(.text.usart_interrupt_flag_clear), (18 bytes).
+    Removing gd32f10x_usart.o(.ARM.exidx.text.usart_interrupt_flag_clear), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text), (0 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_deinit), (22 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_deinit), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_enable), (18 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_enable), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_counter_update), (16 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_counter_update), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_config), (24 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_config), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_flag_get), (16 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_flag_get), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_flag_clear), (14 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_flag_clear), (8 bytes).
+    Removing gd32f10x_wwdgt.o(.text.wwdgt_interrupt_enable), (18 bytes).
+    Removing gd32f10x_wwdgt.o(.ARM.exidx.text.wwdgt_interrupt_enable), (8 bytes).
+
+1099 unused section(s) (total 23992 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x08000131
+
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000017f8, Max: 0x00040000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x000017e8, Max: 0x00040000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x08000000   0x00000130   Data   RO         1341    RESET               startup_gd32f10x_hd.o
+    0x08000130   0x00000008   Code   RO         1382  * !!!main             c_wu.l(__main.o)
+    0x08000138   0x0000005c   Code   RO         1713    !!!scatter          c_wu.l(__scatter.o)
+    0x08000194   0x0000001a   Code   RO         1717    !!handler_copy      c_wu.l(__scatter_copy.o)
+    0x080001ae   0x00000002   PAD
+    0x080001b0   0x00000002   Code   RO         1714    !!handler_null      c_wu.l(__scatter.o)
+    0x080001b2   0x00000002   PAD
+    0x080001b4   0x0000001c   Code   RO         1719    !!handler_zi        c_wu.l(__scatter_zi.o)
+    0x080001d0   0x00000000   Code   RO         1379    .ARM.Collect$$_printf_percent$$00000000  c_wu.l(_printf_percent.o)
+    0x080001d0   0x00000006   Code   RO         1378    .ARM.Collect$$_printf_percent$$00000009  c_wu.l(_printf_d.o)
+    0x080001d6   0x00000004   Code   RO         1389    .ARM.Collect$$_printf_percent$$00000017  c_wu.l(_printf_percent_end.o)
+    0x080001da   0x00000002   Code   RO         1510    .ARM.Collect$$libinit$$00000000  c_wu.l(libinit.o)
+    0x080001dc   0x00000000   Code   RO         1512    .ARM.Collect$$libinit$$00000002  c_wu.l(libinit2.o)
+    0x080001dc   0x00000000   Code   RO         1514    .ARM.Collect$$libinit$$00000004  c_wu.l(libinit2.o)
+    0x080001dc   0x00000000   Code   RO         1516    .ARM.Collect$$libinit$$00000006  c_wu.l(libinit2.o)
+    0x080001dc   0x00000008   Code   RO         1517    .ARM.Collect$$libinit$$00000007  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1519    .ARM.Collect$$libinit$$0000000C  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1521    .ARM.Collect$$libinit$$0000000E  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1523    .ARM.Collect$$libinit$$00000010  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1526    .ARM.Collect$$libinit$$00000013  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1528    .ARM.Collect$$libinit$$00000015  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1530    .ARM.Collect$$libinit$$00000017  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1532    .ARM.Collect$$libinit$$00000019  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1534    .ARM.Collect$$libinit$$0000001B  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1536    .ARM.Collect$$libinit$$0000001D  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1538    .ARM.Collect$$libinit$$0000001F  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1540    .ARM.Collect$$libinit$$00000021  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1542    .ARM.Collect$$libinit$$00000023  c_wu.l(libinit2.o)
+    0x080001e4   0x00000000   Code   RO         1544    .ARM.Collect$$libinit$$00000025  c_wu.l(libinit2.o)
+    0x080001e4   0x00000004   Code   RO         1545    .ARM.Collect$$libinit$$00000026  c_wu.l(libinit2.o)
+    0x080001e8   0x00000000   Code   RO         1546    .ARM.Collect$$libinit$$00000027  c_wu.l(libinit2.o)
+    0x080001e8   0x00000000   Code   RO         1550    .ARM.Collect$$libinit$$0000002E  c_wu.l(libinit2.o)
+    0x080001e8   0x00000000   Code   RO         1552    .ARM.Collect$$libinit$$00000030  c_wu.l(libinit2.o)
+    0x080001e8   0x00000000   Code   RO         1554    .ARM.Collect$$libinit$$00000032  c_wu.l(libinit2.o)
+    0x080001e8   0x00000000   Code   RO         1556    .ARM.Collect$$libinit$$00000034  c_wu.l(libinit2.o)
+    0x080001e8   0x00000002   Code   RO         1557    .ARM.Collect$$libinit$$00000035  c_wu.l(libinit2.o)
+    0x080001ea   0x00000002   Code   RO         1692    .ARM.Collect$$libshutdown$$00000000  c_wu.l(libshutdown.o)
+    0x080001ec   0x00000000   Code   RO         1559    .ARM.Collect$$libshutdown$$00000002  c_wu.l(libshutdown2.o)
+    0x080001ec   0x00000004   Code   RO         1560    .ARM.Collect$$libshutdown$$00000003  c_wu.l(libshutdown2.o)
+    0x080001f0   0x00000000   Code   RO         1561    .ARM.Collect$$libshutdown$$00000004  c_wu.l(libshutdown2.o)
+    0x080001f0   0x00000000   Code   RO         1564    .ARM.Collect$$libshutdown$$00000007  c_wu.l(libshutdown2.o)
+    0x080001f0   0x00000000   Code   RO         1567    .ARM.Collect$$libshutdown$$0000000A  c_wu.l(libshutdown2.o)
+    0x080001f0   0x00000000   Code   RO         1569    .ARM.Collect$$libshutdown$$0000000C  c_wu.l(libshutdown2.o)
+    0x080001f0   0x00000000   Code   RO         1572    .ARM.Collect$$libshutdown$$0000000F  c_wu.l(libshutdown2.o)
+    0x080001f0   0x00000002   Code   RO         1573    .ARM.Collect$$libshutdown$$00000010  c_wu.l(libshutdown2.o)
+    0x080001f2   0x00000000   Code   RO         1384    .ARM.Collect$$rtentry$$00000000  c_wu.l(__rtentry.o)
+    0x080001f2   0x00000000   Code   RO         1397    .ARM.Collect$$rtentry$$00000002  c_wu.l(__rtentry2.o)
+    0x080001f2   0x00000006   Code   RO         1409    .ARM.Collect$$rtentry$$00000004  c_wu.l(__rtentry4.o)
+    0x080001f8   0x00000000   Code   RO         1399    .ARM.Collect$$rtentry$$00000009  c_wu.l(__rtentry2.o)
+    0x080001f8   0x00000004   Code   RO         1400    .ARM.Collect$$rtentry$$0000000A  c_wu.l(__rtentry2.o)
+    0x080001fc   0x00000000   Code   RO         1402    .ARM.Collect$$rtentry$$0000000C  c_wu.l(__rtentry2.o)
+    0x080001fc   0x00000008   Code   RO         1403    .ARM.Collect$$rtentry$$0000000D  c_wu.l(__rtentry2.o)
+    0x08000204   0x00000002   Code   RO         1581    .ARM.Collect$$rtexit$$00000000  c_wu.l(rtexit.o)
+    0x08000206   0x00000000   Code   RO         1632    .ARM.Collect$$rtexit$$00000002  c_wu.l(rtexit2.o)
+    0x08000206   0x00000004   Code   RO         1633    .ARM.Collect$$rtexit$$00000003  c_wu.l(rtexit2.o)
+    0x0800020a   0x00000006   Code   RO         1634    .ARM.Collect$$rtexit$$00000004  c_wu.l(rtexit2.o)
+    0x08000210   0x00000040   Code   RO         1342    .text               startup_gd32f10x_hd.o
+    0x08000250   0x00000018   Code   RO         1352    .text               c_wu.l(noretval__2printf.o)
+    0x08000268   0x00000068   Code   RO         1354    .text               c_wu.l(__printf.o)
+    0x080002d0   0x00000078   Code   RO         1356    .text               c_wu.l(_printf_dec.o)
+    0x08000348   0x00000006   Code   RO         1380    .text               c_wu.l(heapauxi.o)
+    0x0800034e   0x000000b2   Code   RO         1385    .text               c_wu.l(_printf_intcommon.o)
+    0x08000400   0x00000024   Code   RO         1387    .text               c_wu.l(_printf_char_file.o)
+    0x08000424   0x00000030   Code   RO         1411    .text               c_wu.l(_printf_char_common.o)
+    0x08000454   0x00000008   Code   RO         1413    .text               c_wu.l(ferror.o)
+    0x0800045c   0x00000138   Code   RO         1415    .text               c_wu.l(initio.o)
+    0x08000594   0x0000004a   Code   RO         1426    .text               c_wu.l(sys_stackheap_outer.o)
+    0x080005de   0x0000004e   Code   RO         1430    .text               c_wu.l(h1_free.o)
+    0x0800062c   0x00000046   Code   RO         1486    .text               c_wu.l(setvbuf.o)
+    0x08000672   0x00000002   PAD
+    0x08000674   0x000000f0   Code   RO         1489    .text               c_wu.l(fopen.o)
+    0x08000764   0x0000004c   Code   RO         1491    .text               c_wu.l(fclose.o)
+    0x080007b0   0x00000012   Code   RO         1497    .text               c_wu.l(exit.o)
+    0x080007c2   0x0000000e   Code   RO         1499    .text               c_wu.l(defsig_rtred_outer.o)
+    0x080007d0   0x0000004e   Code   RO         1503    .text               c_wu.l(rt_memclr_w.o)
+    0x0800081e   0x00000066   Code   RO         1574    .text               c_wu.l(sys_io.o)
+    0x08000884   0x00000008   Code   RO         1578    .text               c_wu.l(libspace.o)
+    0x0800088c   0x00000008   Code   RO         1588    .text               c_wu.l(rt_heap_descriptor_intlibspace.o)
+    0x08000894   0x00000004   Code   RO         1590    .text               c_wu.l(hguard.o)
+    0x08000898   0x0000008a   Code   RO         1592    .text               c_wu.l(init_alloc.o)
+    0x08000922   0x0000005e   Code   RO         1598    .text               c_wu.l(h1_alloc.o)
+    0x08000980   0x000000f8   Code   RO         1610    .text               c_wu.l(fseek.o)
+    0x08000a78   0x00000108   Code   RO         1612    .text               c_wu.l(stdio.o)
+    0x08000b80   0x0000000a   Code   RO         1614    .text               c_wu.l(defsig_exit.o)
+    0x08000b8a   0x00000002   PAD
+    0x08000b8c   0x00000034   Code   RO         1616    .text               c_wu.l(defsig_rtred_inner.o)
+    0x08000bc0   0x0000000c   Code   RO         1624    .text               c_wu.l(sys_exit.o)
+    0x08000bcc   0x00000002   Code   RO         1628    .text               c_wu.l(use_no_semi.o)
+    0x08000bce   0x00000000   Code   RO         1630    .text               c_wu.l(indicate_semi.o)
+    0x08000bce   0x00000000   Code   RO         1638    .text               c_wu.l(maybetermalloc1.o)
+    0x08000bce   0x0000000c   Code   RO         1640    .text               c_wu.l(h1_init.o)
+    0x08000bda   0x00000034   Code   RO         1642    .text               c_wu.l(h1_extend.o)
+    0x08000c0e   0x00000042   Code   RO         1648    .text               c_wu.l(ftell.o)
+    0x08000c50   0x00000032   Code   RO         1652    .text               c_wu.l(defsig_general.o)
+    0x08000c82   0x0000000e   Code   RO         1654    .text               c_wu.l(defsig_rtmem_outer.o)
+    0x08000c90   0x0000003e   Code   RO         1658    .text               c_wu.l(strlen.o)
+    0x08000cce   0x0000000e   Code   RO         1669    .text               c_wu.l(sys_wrch.o)
+    0x08000cdc   0x00000008   Code   RO         1680    .text               c_wu.l(rt_errno_addr_intlibspace.o)
+    0x08000ce4   0x00000050   Code   RO         1686    .text               c_wu.l(defsig_rtmem_inner.o)
+    0x08000d34   0x00000002   Code   RO           33    .text.BusFault_Handler  gd32f10x_it.o
+    0x08000d36   0x00000002   PAD
+    0x08000d38   0x00000002   Code   RO           39    .text.DebugMon_Handler  gd32f10x_it.o
+    0x08000d3a   0x00000002   PAD
+    0x08000d3c   0x00000002   Code   RO           29    .text.HardFault_Handler  gd32f10x_it.o
+    0x08000d3e   0x00000002   PAD
+    0x08000d40   0x00000002   Code   RO           31    .text.MemManage_Handler  gd32f10x_it.o
+    0x08000d42   0x00000002   PAD
+    0x08000d44   0x00000002   Code   RO           27    .text.NMI_Handler   gd32f10x_it.o
+    0x08000d46   0x00000002   PAD
+    0x08000d48   0x00000002   Code   RO           41    .text.PendSV_Handler  gd32f10x_it.o
+    0x08000d4a   0x00000002   PAD
+    0x08000d4c   0x00000002   Code   RO           37    .text.SVC_Handler   gd32f10x_it.o
+    0x08000d4e   0x00000002   PAD
+    0x08000d50   0x00000004   Code   RO           43    .text.SysTick_Handler  gd32f10x_it.o
+    0x08000d54   0x00000198   Code   RO           84    .text.SystemInit    system_gd32f10x.o
+    0x08000eec   0x00000002   Code   RO           35    .text.UsageFault_Handler  gd32f10x_it.o
+    0x08000eee   0x00000002   PAD
+    0x08000ef0   0x00000014   Code   RO           70    .text.delay_1ms     systick.o
+    0x08000f04   0x00000018   Code   RO           72    .text.delay_decrement  systick.o
+    0x08000f1c   0x0000009c   Code   RO          491    .text.exti_init     gd32f10x_exti.o
+    0x08000fb8   0x0000000c   Code   RO          511    .text.exti_interrupt_flag_clear  gd32f10x_exti.o
+    0x08000fc4   0x00000024   Code   RO           56    .text.fputc         main.o
+    0x08000fe8   0x000000c8   Code   RO           14    .text.gd_eval_com_init  gd32f10x_eval.o
+    0x080010b0   0x00000088   Code   RO           10    .text.gd_eval_key_init  gd32f10x_eval.o
+    0x08001138   0x00000024   Code   RO           12    .text.gd_eval_key_state_get  gd32f10x_eval.o
+    0x0800115c   0x00000048   Code   RO            2    .text.gd_eval_led_init  gd32f10x_eval.o
+    0x080011a4   0x0000001c   Code   RO            6    .text.gd_eval_led_off  gd32f10x_eval.o
+    0x080011c0   0x0000001c   Code   RO            4    .text.gd_eval_led_on  gd32f10x_eval.o
+    0x080011dc   0x00000032   Code   RO            8    .text.gd_eval_led_toggle  gd32f10x_eval.o
+    0x0800120e   0x00000002   PAD
+    0x08001210   0x0000000c   Code   RO          631    .text.gpio_bit_write  gd32f10x_gpio.o
+    0x0800121c   0x00000082   Code   RO          645    .text.gpio_exti_source_select  gd32f10x_gpio.o
+    0x0800129e   0x00000002   PAD
+    0x080012a0   0x000000aa   Code   RO          625    .text.gpio_init     gd32f10x_gpio.o
+    0x0800134a   0x00000002   PAD
+    0x0800134c   0x0000000a   Code   RO          635    .text.gpio_input_bit_get  gd32f10x_gpio.o
+    0x08001356   0x00000002   PAD
+    0x08001358   0x000000cc   Code   RO           54    .text.main          main.o
+    0x08001424   0x00000064   Code   RO          735    .text.nvic_irq_enable  gd32f10x_misc.o
+    0x08001488   0x0000001c   Code   RO          739    .text.nvic_vector_table_set  gd32f10x_misc.o
+    0x080014a4   0x000000ac   Code   RO          861    .text.rcu_clock_freq_get  gd32f10x_rcu.o
+    0x08001550   0x0000001e   Code   RO          795    .text.rcu_periph_clock_enable  gd32f10x_rcu.o
+    0x0800156e   0x00000002   PAD
+    0x08001570   0x00000020   Code   RO          805    .text.rcu_periph_reset_disable  gd32f10x_rcu.o
+    0x08001590   0x0000001e   Code   RO          803    .text.rcu_periph_reset_enable  gd32f10x_rcu.o
+    0x080015ae   0x00000002   PAD
+    0x080015b0   0x0000004a   Code   RO           68    .text.systick_config  systick.o
+    0x080015fa   0x00000002   PAD
+    0x080015fc   0x0000006a   Code   RO         1226    .text.usart_baudrate_set  gd32f10x_usart.o
+    0x08001666   0x00000002   PAD
+    0x08001668   0x00000008   Code   RO         1242    .text.usart_data_transmit  gd32f10x_usart.o
+    0x08001670   0x0000007a   Code   RO         1224    .text.usart_deinit  gd32f10x_usart.o
+    0x080016ea   0x00000002   PAD
+    0x080016ec   0x0000000a   Code   RO         1234    .text.usart_enable  gd32f10x_usart.o
+    0x080016f6   0x00000002   PAD
+    0x080016f8   0x00000012   Code   RO         1298    .text.usart_flag_get  gd32f10x_usart.o
+    0x0800170a   0x00000002   PAD
+    0x0800170c   0x00000014   Code   RO         1292    .text.usart_hardware_flow_cts_config  gd32f10x_usart.o
+    0x08001720   0x00000014   Code   RO         1290    .text.usart_hardware_flow_rts_config  gd32f10x_usart.o
+    0x08001734   0x00000010   Code   RO         1228    .text.usart_parity_config  gd32f10x_usart.o
+    0x08001744   0x0000000c   Code   RO         1240    .text.usart_receive_config  gd32f10x_usart.o
+    0x08001750   0x00000010   Code   RO         1232    .text.usart_stop_bit_set  gd32f10x_usart.o
+    0x08001760   0x0000000c   Code   RO         1238    .text.usart_transmit_config  gd32f10x_usart.o
+    0x0800176c   0x00000010   Code   RO         1230    .text.usart_word_length_set  gd32f10x_usart.o
+    0x0800177c   0x00000004   Data   RO         1421    .constdata          c_wu.l(sys_io_names.o)
+    0x08001780   0x00000004   Data   RO         1422    .constdata          c_wu.l(sys_io_names.o)
+    0x08001784   0x00000004   Data   RO         1423    .constdata          c_wu.l(sys_io_names.o)
+    0x08001788   0x0000000c   Data   RO           18    .rodata.KEY_EXTI_LINE  gd32f10x_eval.o
+    0x08001794   0x0000000c   Data   RO           17    .rodata.KEY_PORT    gd32f10x_eval.o
+    0x080017a0   0x00000020   Data   RO           16    .rodata.cst16       gd32f10x_eval.o
+    0x080017c0   0x00000008   Data   RO          863    .rodata.cst8        gd32f10x_rcu.o
+    0x080017c8   0x00000020   Data   RO         1712    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000770, Max: 0x00008000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000004   Data   RW         1393    .data               c_wu.l(stdio_streams.o)
+    0x20000004   0x00000004   Data   RW         1394    .data               c_wu.l(stdio_streams.o)
+    0x20000008   0x00000004   Data   RW         1395    .data               c_wu.l(stdio_streams.o)
+    0x2000000c   0x00000004   Data   RW           86    .data.SystemCoreClock  system_gd32f10x.o
+    0x20000010   0x00000054   Zero   RW         1390    .bss                c_wu.l(stdio_streams.o)
+    0x20000064   0x00000054   Zero   RW         1391    .bss                c_wu.l(stdio_streams.o)
+    0x200000b8   0x00000054   Zero   RW         1392    .bss                c_wu.l(stdio_streams.o)
+    0x2000010c   0x00000060   Zero   RW         1579    .bss                c_wu.l(libspace.o)
+    0x2000016c   0x00000004   Zero   RW           74    .bss.delay          systick.o
+    0x20000170   0x00000200   Zero   RW         1340    HEAP                startup_gd32f10x_hd.o
+    0x20000370   0x00000400   Zero   RW         1339    STACK               startup_gd32f10x_hd.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       550         80         56          0          0       4661   gd32f10x_eval.o
+       168          0          0          0          0       3386   gd32f10x_exti.o
+       322          0          0          0          0       5620   gd32f10x_gpio.o
+        20          0          0          0          0       1184   gd32f10x_it.o
+       128          0          0          0          0       3607   gd32f10x_misc.o
+       264         20          8          0          0      12900   gd32f10x_rcu.o
+       376          0          0          0          0       9463   gd32f10x_usart.o
+       240         64          0          0          0       2127   main.o
+        64         26        304          0       1536        892   startup_gd32f10x_hd.o
+       408          0          0          4          0       1389   system_gd32f10x.o
+       118          0          0          0          4       3964   systick.o
+
+    ----------------------------------------------------------------------
+      2696        190        400          4       1540      49193   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+        38          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         8          0          0          0          0         68   __main.o
+       104          0          0          0          0         84   __printf.o
+         0          0          0          0          0          0   __rtentry.o
+        12          0          0          0          0          0   __rtentry2.o
+         6          0          0          0          0          0   __rtentry4.o
+        94          8          0          0          0          0   __scatter.o
+        26          0          0          0          0          0   __scatter_copy.o
+        28          0          0          0          0          0   __scatter_zi.o
+        48          6          0          0          0         96   _printf_char_common.o
+        36          4          0          0          0         80   _printf_char_file.o
+         6          0          0          0          0          0   _printf_d.o
+       120         16          0          0          0         92   _printf_dec.o
+       178          0          0          0          0         88   _printf_intcommon.o
+         0          0          0          0          0          0   _printf_percent.o
+         4          0          0          0          0          0   _printf_percent_end.o
+        10          0          0          0          0         68   defsig_exit.o
+        50          0          0          0          0         88   defsig_general.o
+        80         58          0          0          0         76   defsig_rtmem_inner.o
+        14          0          0          0          0         80   defsig_rtmem_outer.o
+        52         38          0          0          0         76   defsig_rtred_inner.o
+        14          0          0          0          0         80   defsig_rtred_outer.o
+        18          0          0          0          0         80   exit.o
+        76          0          0          0          0         88   fclose.o
+         8          0          0          0          0         68   ferror.o
+       240          6          0          0          0        128   fopen.o
+       248          6          0          0          0         84   fseek.o
+        66          0          0          0          0         76   ftell.o
+        94          0          0          0          0         80   h1_alloc.o
+        52          0          0          0          0         68   h1_extend.o
+        78          0          0          0          0         80   h1_free.o
+        12          0          0          0          0         84   h1_init.o
+         6          0          0          0          0        152   heapauxi.o
+         4          0          0          0          0        136   hguard.o
+         0          0          0          0          0          0   indicate_semi.o
+       138          0          0          0          0        168   init_alloc.o
+       312         46          0          0          0        112   initio.o
+         2          0          0          0          0          0   libinit.o
+        14          0          0          0          0          0   libinit2.o
+         2          0          0          0          0          0   libshutdown.o
+         6          0          0          0          0          0   libshutdown2.o
+         8          4          0          0         96         68   libspace.o
+         0          0          0          0          0          0   maybetermalloc1.o
+        24          4          0          0          0         84   noretval__2printf.o
+         8          4          0          0          0         68   rt_errno_addr_intlibspace.o
+         8          4          0          0          0         68   rt_heap_descriptor_intlibspace.o
+        78          0          0          0          0         80   rt_memclr_w.o
+         2          0          0          0          0          0   rtexit.o
+        10          0          0          0          0          0   rtexit2.o
+        70          0          0          0          0         80   setvbuf.o
+       264          6          0          0          0        160   stdio.o
+         0          0          0         12        252          0   stdio_streams.o
+        62          0          0          0          0         76   strlen.o
+        12          4          0          0          0         68   sys_exit.o
+       102          0          0          0          0        240   sys_io.o
+         0          0         12          0          0          0   sys_io_names.o
+        74          0          0          0          0         80   sys_stackheap_outer.o
+        14          0          0          0          0         76   sys_wrch.o
+         2          0          0          0          0         68   use_no_semi.o
+
+    ----------------------------------------------------------------------
+      3012        214         12         12        348       3596   Library Totals
+         8          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      3004        214         12         12        348       3596   c_wu.l
+
+    ----------------------------------------------------------------------
+      3012        214         12         12        348       3596   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      5708        404        412         16       1888      50853   Grand Totals
+      5708        404        412         16       1888      50853   ELF Image Totals
+      5708        404        412         16          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 6120 (   5.98kB)
+    Total RW  Size (RW Data + ZI Data)              1904 (   1.86kB)
+    Total ROM Size (Code + RO Data + RW Data)       6136 (   5.99kB)
+
+==============================================================================
+

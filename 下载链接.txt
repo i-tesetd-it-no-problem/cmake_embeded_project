@@ -1,0 +1,13 @@
+[CMake 下载页面](https://cmake.org/download/)  
+
+[ARMGCC 下载页面(免费)](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
+
+[ARMCLANG(AC6) 下载页面(商业付费)](https://developer.arm.com/downloads/view/ACOMPE)
+
+[Ninja 下载页面](https://github.com/ninja-build/ninja/releases/v1.12.1)  
+
+[MinGW-w64 下载页面](https://sourceforge.net/projects/mingw-w64/files/)
+
+[J-Link 驱动下载页面](https://www.segger.com/downloads/jlink/)  
+
+[VSCode 下载页面](https://code.visualstudio.com/)  

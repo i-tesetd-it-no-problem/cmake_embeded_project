@@ -1,0 +1,252 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      The target system is: Generic -  - cortex-m3
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      armclang: fatal error: no target architecture given; use --target=arm-arm-none-eabi or --target=aarch64-arm-none-eabi
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is ARMClang, found in:
+        C:/vscode_embeded/Cmake_Test/build/CMakeFiles/3.30.0/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Product: Keil MDK Community (non-commercial free of charge)
+      Component: Arm Compiler for Embedded 6.21
+      Tool: armclang [5ec1fd00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Product: Keil MDK Community (non-commercial free of charge)
+      Component: Arm Compiler for Embedded 6.21
+      Tool: armclang [5ec1fd00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+      Product: Keil MDK Community (non-commercial free of charge)
+      Component: Arm Compiler for Embedded 6.21
+      Tool: armclang [5ec1fd00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the ASM compiler is ARMClang using "--version" matched "armclang":
+      Product: Keil MDK Community (non-commercial free of charge)
+      Component: Arm Compiler for Embedded 6.21
+      Tool: armclang [5ec1fd00]
+      
+      Target: unspecified-arm-none-unspecified
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/vscode_embeded/Cmake_Test/build/CMakeFiles/CMakeScratch/TryCompile-qnlkx3"
+      binary: "C:/vscode_embeded/Cmake_Test/build/CMakeFiles/CMakeScratch/TryCompile-qnlkx3"
+    cmakeVariables:
+      CMAKE_C_COMPILER_TARGET: "arm-arm-none-eabi"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/vscode_embeded/Cmake_Test/build/CMakeFiles/CMakeScratch/TryCompile-qnlkx3'
+        
+        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_81298
+        [1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -v -MD -MT CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -MF CMakeFiles\\cmTC_81298.dir\\CMakeCCompilerABI.o.d -o CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -c C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Product: Keil MDK Community (non-commercial free of charge)
+        Component: Arm Compiler for Embedded 6.21
+        Tool: armclang [5ec1fd00]
+        
+        Target: arm-arm-none-eabi
+        warning: 'armv4t' is unsupported in this version of the product
+         (in-process)
+         "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple armv4t-arm-none-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -debugger-tuning=gdb -fforce-dwarf-frame "-fdebug-compilation-dir=C:\\\\vscode_embeded\\\\Cmake_Test\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-qnlkx3" -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=C:\\\\vscode_embeded\\\\Cmake_Test\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-qnlkx3" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\18" -dependency-file "CMakeFiles\\\\cmTC_81298.dir\\\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -sys-header-deps -canonical-system-headers -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -x c C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        warning: 'arm7tdmi' is unsupported in this version of the product
+        Arm Compiler for Embedded 6.21 -cc1 default target aarch64-arm-none-eabi
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include\x0d
+        End of search list.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_81298.a  CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Keil_v5/ARM/ARMCLANG/bin/../include]
+        end of search list found
+        collapse include dir [C:/Keil_v5/ARM/ARMCLANG/bin/../include] ==> [C:/Keil_v5/ARM/ARMCLANG/include]
+        implicit include dirs: [C:/Keil_v5/ARM/ARMCLANG/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(armlink\\.exe|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(armlink\\.exe|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/vscode_embeded/Cmake_Test/build/CMakeFiles/CMakeScratch/TryCompile-qnlkx3']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_81298]
+        ignore line: [[1/2] C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armclang.exe --target=arm-arm-none-eabi   -v -MD -MT CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -MF CMakeFiles\\cmTC_81298.dir\\CMakeCCompilerABI.o.d -o CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -c C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Product: Keil MDK Community (non-commercial free of charge)]
+        ignore line: [Component: Arm Compiler for Embedded 6.21]
+        ignore line: [Tool: armclang [5ec1fd00]]
+        ignore line: []
+        ignore line: [Target: arm-arm-none-eabi]
+        ignore line: [warning: 'armv4t' is unsupported in this version of the product]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\armclang.exe" -cc1 -triple armv4t-arm-none-eabi -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=on -fno-rounding-math -ffinite-math-only -mconstructor-aliases -target-cpu arm7tdmi -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -sha2 -target-feature -aes -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs -mfloat-abi soft -Wunaligned-access -debugger-tuning=gdb -fforce-dwarf-frame "-fdebug-compilation-dir=C:\\\\vscode_embeded\\\\Cmake_Test\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-qnlkx3" -v -ffunction-sections -fdata-sections "-fcoverage-compilation-dir=C:\\\\vscode_embeded\\\\Cmake_Test\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-qnlkx3" -resource-dir "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\lib\\\\clang\\\\18" -dependency-file "CMakeFiles\\\\cmTC_81298.dir\\\\CMakeCCompilerABI.o.d" -MT CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -sys-header-deps -canonical-system-headers -internal-isystem "C:\\\\Keil_v5\\\\ARM\\\\ARMCLANG\\\\bin\\\\..\\\\include" -nobuiltininc -ferror-limit 19 -fvisibility=hidden -fno-signed-char -fgnuc-version=4.2.1 -fsuppress-licensing -aggressive-jump-threading -o CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o -x c C:/compile_environment/Cmake-3.30/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [warning: 'arm7tdmi' is unsupported in this version of the product]
+        ignore line: [Arm Compiler for Embedded 6.21 -cc1 default target aarch64-arm-none-eabi]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\..\\include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Keil_v5\\ARM\\ARMCLANG\\bin\\armar.exe --create -cr libcmTC_81298.a  CMakeFiles/cmTC_81298.dir/CMakeCCompilerABI.o && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

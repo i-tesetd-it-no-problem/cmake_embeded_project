@@ -1,0 +1,22 @@
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NERVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
+
+option(USE_ARMGCC "USE ARM GCC" OFF)
+
+if(USE_ARMGCC)
+    set(COMPILER_ROOT_PATH C:/compile_environment/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi/bin)
+    set(CMAKE_C_COMPILER ${COMPILER_ROOT_PATH}/arm-none-eabi-gcc.exe)
+    set(CMAKE_ASM_COMPILER ${COMPILER_ROOT_PATH}/arm-none-eabi-gcc.exe)
+    set(CMAKE_OBJCOPY ${COMPILER_ROOT_PATH}/arm-none-eabi-objcopy.exe)
+    set(CMAKE_SIEZE ${COMPILER_ROOT_PATH}/arm-none-eabi-size.exe)
+else()
+    set(COMPILER_ROOT_PATH C:/Keil_v5/ARM/ARMCLANG/bin)
+    set(CMAKE_C_COMPILER ${COMPILER_ROOT_PATH}/armclang.exe)
+    set(CMAKE_ASM_COMPILER ${COMPILER_ROOT_PATH}/armclang.exe)
+    set(CMAKE_OBJCOPY ${COMPILER_ROOT_PATH}/fromelf.exe)
+    set(CMAKE_SIEZE ${COMPILER_ROOT_PATH}/fromelf.exe)
+endif()

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.ld": "c",
+        "gd32f10x_libopt.h": "c"
+    }
+}

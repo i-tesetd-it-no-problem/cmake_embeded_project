@@ -1,0 +1,45 @@
+add_compile_options(
+        -mcpu=xxx
+        -mthumb
+        -mthumb-interwork
+        -ffunction-sections
+        -fdata-sections
+        -fno-common
+        -fmessage-length=0
+    )
+
+    add_link_options(
+        -Wl,-Map=xxx
+        -Wl,--print-memory-usage
+        -Wl,--gc-sections
+        -T xxx
+    )
+
+add_compile_options(
+        --target=arm-arm-none-eabi
+        -mcpu=xxx
+        -masm=armasm
+        -Wa,armasm,--diag_suppress=A1950W
+        -gdwarf-4
+    )
+
+    add_link_options(
+        --strict
+        --scatter xxx
+        --info=sizes,totals,unused,veneers
+        --map
+        --list=xxx
+    )
+
+
+LR_IROM1 0x08000000 0x00040000  {
+  ER_IROM1 0x08000000 0x00040000  {
+   *.o (RESET, +First)
+   *(InRoot$$Sections)
+   .ANY (+RO)
+   .ANY (+XO)
+  }
+  RW_IRAM1 0x20000000 0x00008000  {
+   .ANY (+RW +ZI)
+  }
+}
